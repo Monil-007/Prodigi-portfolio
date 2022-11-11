@@ -88,7 +88,7 @@ const Projects = () => {
       >
         View PPT
       </ContactLink> */}
-      <Resume>
+      {/* <Resume>
         <ResumeLink
          // href={resume}
           icon={downloadIcon}
@@ -97,7 +97,7 @@ const Projects = () => {
         >
           Download Idea & Description PPT
         </ResumeLink>
-      </Resume>
+      </Resume> */}
     </StyledProjects>
   );
 };
