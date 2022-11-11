@@ -17,6 +17,42 @@ const FormSignup = ({ submitForm }) => {
           information below.
         </h1>
         <div className='form-inputs'>
+          <label className='form-label'>Location</label>
+          <select className="form-select" name="occupation" onChange={handleChange} value={values.location}>
+            <option value=""></option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="">Bihar</option>
+            <option value="">Chhattisgarh</option>
+            <option value="">Goa</option>
+            <option value="">Gujarat</option>
+            <option value="">Haryana</option>
+            <option value="">Himachal Pradesh</option>
+            <option value="">Jharkhand</option>
+            <option value="">Karnataka</option>
+            <option value="">Kerala</option>
+            <option value="">Madhya Pradesh</option>
+            <option value="">Maharashtra</option>
+            <option value="">Manipur</option>
+            <option value="">Meghalaya</option>
+            <option value="">Mizoram</option>
+            <option value="">Nagaland</option>
+            <option value="">Odisha</option>
+            <option value="">Punjab</option>
+            <option value="">Rajasthan</option>
+            <option value="">Sikkim</option>
+            <option value="">Tamil Nadu</option>
+            <option value="">Telangana</option>
+            <option value="">Tripura</option>
+            <option value="">Uttar Pradesh</option>
+            <option value="">West Bengal</option>
+
+            
+          </select>
+          {errors.username && <p>{errors.username}</p>}
+        </div>
+        <div className='form-inputs'>
           <label className='form-label'>Username</label>
           <input
             className='form-input'
