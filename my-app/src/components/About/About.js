@@ -10,7 +10,7 @@ import {
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
-import TeamImage from "../../assets/TeamImage.webp";
+import TeamImage from "../../assets/TeamImage.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
 //import resume from "../../assets/resume.pdf";
 
