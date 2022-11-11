@@ -12,7 +12,7 @@ import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import TeamImage from "../../assets/TeamImage.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/resume.pdf";
+//import resume from "../../assets/resume.pdf";
 
 const About = () => {
   return (
@@ -28,7 +28,7 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph style={{ marginTop: "200px" }}>
-            We are team XYZ, we have 5 members in our team:
+            We are team MLcrats, we have 5 members in our team:
             <br></br>
             <br></br>
             <ul style={{ listStyleType: 'lower-latin', color: '#00ffff' }}>
