@@ -90,7 +90,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Team XYZ
+            Team MLcrats
           </Small>
         </small>
       </Copyright>
