@@ -84,9 +84,9 @@ const Navbar = () => {
             About our Team
           </StyledNavLinks>
         </NavList>
-        {/* <NavList>
+        <NavList>
           <StyledNavLinks
-            to="playground"
+            to="form"
             smooth={true}
             duration={0}
             delay={0}
@@ -95,9 +95,9 @@ const Navbar = () => {
             exact="true"
             offset={-85.26}
           >
-            Playground
+            Registration form
           </StyledNavLinks>
-        </NavList> */}
+        </NavList>
       </NavMenuList>
       <StyledCTA
         href="mailto:gandhi.monil288@gmail.com "
