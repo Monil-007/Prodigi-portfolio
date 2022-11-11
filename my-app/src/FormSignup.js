@@ -48,16 +48,29 @@ const FormSignup = ({ submitForm }) => {
             <option value="">Uttar Pradesh</option>
             <option value="">West Bengal</option> 
           </select>
-          {errors.username && <p>{errors.username}</p>}
+          {errors.location && <p>{errors.location}</p>}
         </div>
 
         <div className='form-inputs'>
           <label className='form-label'>Shop Types</label>
-          <select className="form-select" name="" onChange={handleChange} value={values.location}>
+          <select className="form-select" name="" onChange={handleChange} value={values.shoptypes}>
             <option value=""></option>
             <option value="Andhra Pradesh">Grocery</option>
             <option value="Arunachal Pradesh">Pharmacy</option>
             <option value="Arunachal Pradesh">Stationary</option>
+            </select>
+            </div>
+
+            <div className='form-inputs'>
+          <label className='form-label'>Languages</label>
+          <select className="form-select" name="" onChange={handleChange} value={values.languages}>
+            <option value=""></option>
+            <option value="Andhra Pradesh">English</option>
+            <option value="">Hindi</option>
+            <option value="">Marathi</option>
+            <option value="">Gujarati</option>
+            <option value="">Bengali</option>
+            <option value="">Tamil</option>
             </select>
             </div>
 
