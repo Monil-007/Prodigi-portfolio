@@ -26,20 +26,21 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-        <Name>Jericho Bantiquete</Name>
-        <Title>Front-end Developer</Title>
+        <Name>Team XYZ</Name>
+        <Title>A supply chain management project</Title>
         <p>
-          I <span className="change-text"></span>{" "}
-          <span className="responsive">r</span>
-          <span className="responsive">e</span>
-          <span className="responsive">s</span>
-          <span className="responsive">p</span>
-          <span className="responsive">o</span>
+          We <span className="change-text"></span>{" "}
+          <span className="responsive">Machine</span>
+          <span className="responsive">Learning,</span>
+          <span className="responsive">blockchain,</span>
+          {/* <span className="responsive">blockchain,</span> */}
+          <span className="responsive">realworld</span>
+          {/* <span className="responsive">r</span>
           <span className="responsive">n</span>
-          <span className="responsive">s</span>
           <span className="responsive">i</span>
-          <span className="responsive">v</span>
-          <span className="responsive">e</span> websites.
+          
+          <span className="responsive">g</span>
+  <span className="responsive">s</span>*/} projects.
         </p>
         <StyledButtonsContainer>
           <StyledButton
@@ -53,7 +54,7 @@ const Home = () => {
             exact="true"
             offset={-50}
           >
-            <span>Projects</span>
+            <span>Project Idea</span>
           </StyledButton>
           <StyledButton
             icon={aboutIcon}
@@ -68,7 +69,7 @@ const Home = () => {
             exact="true"
             offset={-50}
           >
-            <span>About me</span>
+            <span>About our team</span>
           </StyledButton>
         </StyledButtonsContainer>
         <Line />
@@ -81,28 +82,28 @@ const Home = () => {
         </Greeting>
         <Socials>
           <Social
-            href="mailto:jerichobantiquete@gmail.com"
+            href="mailto:gandhi.monil288@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaEnvelope />
           </Social>
           <Social
-            href="https://github.com/monciego"
+            href="https://github.com/prodigee-project/Data-Analysis---Grocery"
             target="_blank"
             rel="noopener noreferrer"
           >
             <GoMarkGithub />
           </Social>
-          <Social
+          {/* <Social
             href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <GrLinkedinOption />
-          </Social>
+          </Social> */}
         </Socials>
-        <Quote>Don't wish for it! Work for it!</Quote>
+        <Quote>We're gonna make the supply chain like never before!!!</Quote>
       </StyledHome>
     </IconContext.Provider>
   );

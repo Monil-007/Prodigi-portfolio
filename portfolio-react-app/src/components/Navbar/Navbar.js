@@ -67,7 +67,7 @@ const Navbar = () => {
             exact="true"
             offset={-85.26}
           >
-            Projects
+            Project Idea
           </StyledNavLinks>
         </NavList>
         <NavList>
@@ -81,10 +81,10 @@ const Navbar = () => {
             exact="true"
             offset={-85.26}
           >
-            About
+            About our Team
           </StyledNavLinks>
         </NavList>
-        <NavList>
+        {/* <NavList>
           <StyledNavLinks
             to="playground"
             smooth={true}
@@ -97,10 +97,10 @@ const Navbar = () => {
           >
             Playground
           </StyledNavLinks>
-        </NavList>
+        </NavList> */}
       </NavMenuList>
       <StyledCTA
-        href="mailto:jerichobantiquete@gmail.com "
+        href="mailto:gandhi.monil288@gmail.com "
         target="_blank"
         rel="noreferrer"
       >
@@ -115,7 +115,7 @@ const Navbar = () => {
             >
               <path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" />
             </svg>
-            get in touch
+            Get in touch
           </span>
         </span>
       </StyledCTA>

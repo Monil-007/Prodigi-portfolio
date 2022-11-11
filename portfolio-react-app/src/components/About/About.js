@@ -10,7 +10,7 @@ import {
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
-import myImage from "../../assets/my-image.jpg";
+import TeamImage from "../../assets/TeamImage.webp";
 import downloadIcon from "../../assets/icons/download-icon.svg";
 //import resume from "../../assets/resume.pdf";
 
@@ -19,20 +19,27 @@ const About = () => {
     <StyledAbout id="about">
       <SectionHeading dark="true" mb="3rem">
         <SectionTitle dark="true" number="02">
-          About Me
+          About Our Team
         </SectionTitle>
       </SectionHeading>
       <AboutContent>
         <AboutImageContainer>
-          <AboutImage src={myImage} />
+          <AboutImage src={TeamImage} />
         </AboutImageContainer>
         <AboutDetailsContainer>
-          <StyledParagraph>
-            My name is Jericho P. Bantiquete, currently pursuing Bachelor of
-            Science in Information Technology in Pangasinan State University. I
-            am a passionate front-end developer based in Philippines.
+          <StyledParagraph style={{ marginTop: "200px" }}>
+            We are team XYZ, we have 5 members in our team:
+            <br></br>
+            <br></br>
+            <ul style={{ listStyleType: 'lower-latin', color: '#00ffff' }}>
+              <li>Gandhi Monil,</li>
+              <li>Shubham kumar,</li>
+              <li>Akhil,</li>
+              <li>Vivek,</li>
+              <li>Sparsh</li>
+            </ul>
           </StyledParagraph>
-          <StyledParagraph>
+          {/* <StyledParagraph>
             I love to design and create responsive websites or web apps from
             scratch. The technologies, tools and languages I am using to build
             my projects are HTML, CSS, JavaScript, REACT JS, TailwindCSS,
@@ -51,7 +58,7 @@ const About = () => {
             >
               Download Resume
             </ResumeLink>
-          </Resume>
+          </Resume> */}
         </AboutDetailsContainer>
       </AboutContent>
     </StyledAbout>

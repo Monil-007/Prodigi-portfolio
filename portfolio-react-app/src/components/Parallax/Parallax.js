@@ -7,9 +7,11 @@ const ParallaxComponent = () => {
   return (
     <Parallax bgImage={parralaxImage} strength={-200} style={{ width: "100%" }}>
       <ParallaxContainer>
-        <ParallaxText>
+        <ParallaxText style={{ fontSize: "28px" }}>
           Success comes to <br />
-          those who dare to begin.
+          those who dare to begin, <br />
+          We are daring to bring a revolution <br />
+          in supply chain management field
         </ParallaxText>
       </ParallaxContainer>
     </Parallax>

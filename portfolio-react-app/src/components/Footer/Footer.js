@@ -27,7 +27,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <FooterSmallTitleWrapper>
-        <FooterSmallTitle>get in touch</FooterSmallTitle>
+        <FooterSmallTitle>Get in touch</FooterSmallTitle>
       </FooterSmallTitleWrapper>
 
       <FooterBigLinkContainer>
@@ -35,25 +35,25 @@ const Footer = () => {
           href="mailto:jerichobantiquete@gmail.com"
           data-hover="Let's talk!"
         >
-          Need a developer?
+          Need to register?
         </FooterBigLink>
       </FooterBigLinkContainer>
       <FooterContacts>
         <FooterContact>
-          <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:+639951076206">+639951076206</ContactLink>
+          <ContactHeader>Call us</ContactHeader>
+          <ContactLink href="tel:+639951076206">+91 9157033554</ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
           <FooterSocials>
             <ContactLink
-              href="https://github.com/monciego"
+              href="https://github.com/prodigee-project/Data-Analysis---Grocery"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub
             </ContactLink>
-            <ContactLink
+            {/* <ContactLink
               href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
               target="_blank"
               rel="noopener noreferrer"
@@ -66,13 +66,13 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               Instagram
-            </ContactLink>
+            </ContactLink> */}
           </FooterSocials>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Let's grab a coffee.</ContactHeader>
           <ContactLink href="tel:+639951076206">
-            jerichobantiquete@gmail.com
+            gandhi.monil288@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>
@@ -86,11 +86,11 @@ const Footer = () => {
         <small>
           &copy; Copyright {year},{" "}
           <Small
-            href="https://github.com/monciego"
+            href="https://github.com/prodigee-project/Data-Analysis---Grocery"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Jericho Bantiquete
+            Team XYZ
           </Small>
         </small>
       </Copyright>

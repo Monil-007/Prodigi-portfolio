@@ -9,16 +9,16 @@ const Projects = () => {
   return (
     <StyledProjects id="projects">
       <SectionHeading>
-        <SectionTitle number="01">Projects</SectionTitle>
+        <SectionTitle number="01">Project Idea</SectionTitle>
       </SectionHeading>
       <StyledParagraph dark="true" textAlign="center">
-        Selected projects I've worked on recently.{" "}
+        So this is our project idea.{" "}
         <StyledLink
           href="https://github.com/monciego"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Want to see more?
+          Our project repository
         </StyledLink>
       </StyledParagraph>
       <ProjectsContainer>
