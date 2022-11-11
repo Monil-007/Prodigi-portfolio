@@ -11,6 +11,7 @@ import ParallaxComponent from "./components/Parallax/Parallax";
 import Technologies from "./components/Technologies/Technologies";
 import Playground from "./components/Playground/Playground";
 import Form from './Form';
+//import InputForm from "./components/InputForm/InputForm";
 
 function App() {
   console.log(
@@ -33,6 +34,7 @@ function App() {
           <ParallaxComponent />
           <Technologies />
           <Form />
+          {/* <InputForm /> */}
           <Footer />
         </>
       </ThemeProvider>
