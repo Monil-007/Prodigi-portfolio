@@ -4,6 +4,34 @@ import { ProjectsContainer, StyledProjects } from "../styles/Projects.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { projectData } from "./projectsData";
 import ProjectCardComponent from "./ProjectCard";
+import {
+  AboutContent,
+  AboutDetailsContainer,
+  AboutImage,
+  AboutImageContainer,
+  Resume,
+  ResumeLink,
+  StyledAbout,
+} from "../styles/About.styled";
+import downloadIcon from "../../assets/icons/download-icon.svg";
+import resume from "../../assets/resume.pdf";
+import {
+  ArrowToTop,
+  ContactHeader,
+  ContactLink,
+  Copyright,
+  FooterArrowLine,
+  FooterBigLink,
+  FooterBigLinkContainer,
+  FooterContact,
+  FooterContacts,
+  FooterLine,
+  FooterSmallTitle,
+  FooterSmallTitleWrapper,
+  FooterSocials,
+  Small,
+  StyledFooter,
+} from "../styles/Footer.styled";
 
 const Projects = () => {
   return (
@@ -51,6 +79,25 @@ const Projects = () => {
           return <ProjectCardComponent key={project.id} {...project} />;
         })}
       </ProjectsContainer> */}
+      {/* <ContactLink
+        href="https://github.com/prodigee-project/Data-Analysis---Grocery"
+        target="_blank"
+        rel="noopener noreferrer"
+        icon={downloadIcon}
+        style={{ color: "brown", marginLeft: "600px", fontSize: "30px" }}
+      >
+        View PPT
+      </ContactLink> */}
+      <Resume>
+        <ResumeLink
+          href={resume}
+          icon={downloadIcon}
+          download={resume}
+          style={{ color: "brown", fontSize: "20px" }}
+        >
+          Download Idea & Description PPT
+        </ResumeLink>
+      </Resume>
     </StyledProjects>
   );
 };

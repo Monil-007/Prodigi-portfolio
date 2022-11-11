@@ -12,7 +12,7 @@ import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import TeamImage from "../../assets/TeamImage.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-//import resume from "../../assets/resume.pdf";
+import resume from "../../assets/resume.pdf";
 
 const About = () => {
   return (
@@ -32,11 +32,11 @@ const About = () => {
             <br></br>
             <br></br>
             <ul style={{ listStyleType: 'lower-latin', color: '#00ffff' }}>
-              <li>Gandhi Monil,</li>
-              <li>Shubham kumar,</li>
-              <li>Akhil,</li>
-              <li>Vivek,</li>
-              <li>Sparsh</li>
+              <li>Gandhi Monil - 20BCE10128,</li>
+              <li>Shubham kumar - 20BCE10050,</li>
+              <li>Akhil Rajeev P - 20BCE10386,</li>
+              <li>Vivek Dharewa - 20BAI10032,</li>
+              <li>Sparsh Mahajan - 20BAI10287</li>
             </ul>
           </StyledParagraph>
           {/* <StyledParagraph>
