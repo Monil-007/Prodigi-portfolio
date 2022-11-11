@@ -14,7 +14,7 @@ import {
   StyledAbout,
 } from "../styles/About.styled";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-//import resume from "../../assets/resume.pdf";
+import resume from "../../assets/Resume.pdf";
 import {
   ArrowToTop,
   ContactHeader,
@@ -42,7 +42,7 @@ const Projects = () => {
       <StyledParagraph dark="true" textAlign="center">
         {" "}
         <StyledLink
-          href="https://github.com/monciego"
+          href="https://github.com/Monil-007/Prodigi-portfolio.git"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -88,16 +88,16 @@ const Projects = () => {
       >
         View PPT
       </ContactLink> */}
-      {/* <Resume>
+      <Resume>
         <ResumeLink
-         // href={resume}
+         href={resume}
           icon={downloadIcon}
-        //  download={resume}
+        download={resume}
          style={{ color: "brown", fontSize: "20px" }}
         >
           Download Idea & Description PPT
         </ResumeLink>
-      </Resume> */}
+      </Resume>
     </StyledProjects>
   );
 };
