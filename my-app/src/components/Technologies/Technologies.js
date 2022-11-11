@@ -9,7 +9,7 @@ import { iconsData } from "./icons";
 
 const Technologies = () => {
   return (
-    <TechnologiesContainer>
+    <TechnologiesContainer style={{ backgroundColor: "#F2AA4CFF" }}>
       <TechnologiesHeader>Technologies We'll be implementing :</TechnologiesHeader>
 
       <TechnologiesIcons>

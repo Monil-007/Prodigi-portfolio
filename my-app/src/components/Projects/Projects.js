@@ -7,7 +7,7 @@ import ProjectCardComponent from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <StyledProjects id="projects">
+    <StyledProjects id="projects" style={{ backgroundColor: "#F2AA4CFF" }}>
       <SectionHeading>
         <SectionTitle number="01">Project Idea</SectionTitle>
       </SectionHeading>
