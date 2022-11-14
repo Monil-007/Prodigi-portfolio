@@ -14,7 +14,7 @@ import {
   StyledAbout,
 } from "../styles/About.styled";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/Resume.pdf";
+import resume from "../../assets/PPT.pdf";
 import {
   ArrowToTop,
   ContactHeader,
@@ -90,10 +90,10 @@ const Projects = () => {
       </ContactLink> */}
       <Resume>
         <ResumeLink
-         href={resume}
+          href={resume}
           icon={downloadIcon}
-        download={resume}
-         style={{ color: "brown", fontSize: "20px" }}
+          download={resume}
+          style={{ color: "brown", fontSize: "20px" }}
         >
           Download Idea & Description PPT
         </ResumeLink>
