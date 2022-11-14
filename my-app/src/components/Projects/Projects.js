@@ -111,6 +111,30 @@ const Projects = () => {
           Download our Project Proposal
         </ResumeLink>
       </Resume>
+      <br />
+      <Resume>
+        <ResumeLink
+          target="_blank"
+          href="https://mlcrats-main-project-site.netlify.app/"
+          icon={downloadIcon}
+          //download={MLcratsProposal}
+          style={{ color: "brown", fontSize: "20px" }}
+        >
+          Dummy Website Link
+        </ResumeLink>
+      </Resume>
+      <br />
+      <Resume>
+        <ResumeLink
+          target="_blank"
+          href="https://github.com/orgs/prodigee-project/repositories"
+          icon={downloadIcon}
+          //download={MLcratsProposal}
+          style={{ color: "brown", fontSize: "20px" }}
+        >
+          Our Github repo
+        </ResumeLink>
+      </Resume>
 
     </StyledProjects>
   );
