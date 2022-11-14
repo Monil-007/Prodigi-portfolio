@@ -14,7 +14,8 @@ import {
   StyledAbout,
 } from "../styles/About.styled";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/PPT.pdf";
+import MLcratsPPT from "../../assets/MLcratsPPT.pdf";
+import MLcratsProposal from "../../assets/MLcratsProposal.pdf";
 import {
   ArrowToTop,
   ContactHeader,
@@ -90,14 +91,27 @@ const Projects = () => {
       </ContactLink> */}
       <Resume>
         <ResumeLink
-          href={resume}
+          href={MLcratsPPT}
           icon={downloadIcon}
-          download={resume}
+          download={MLcratsPPT}
           style={{ color: "brown", fontSize: "20px" }}
         >
           Download Idea & Description PPT
         </ResumeLink>
+
       </Resume>
+      <br />
+      <Resume>
+        <ResumeLink
+          href={MLcratsProposal}
+          icon={downloadIcon}
+          download={MLcratsProposal}
+          style={{ color: "brown", fontSize: "20px" }}
+        >
+          Download our Project Proposal
+        </ResumeLink>
+      </Resume>
+
     </StyledProjects>
   );
 };
